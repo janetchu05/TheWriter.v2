@@ -1,4 +1,4 @@
-<!-- # TheWriter.v2
+# TheWriter.v2
 MySQL connected through PHP
 
 
@@ -13,4 +13,4 @@ updated Elements :
 Things to be updated in future :
   1) Update and Delete function in Board (index adjust)
   2) Overall UI (size, element location, etc.)
-  3) Board Page list limit(10 per page -> move to next page or so) -->
+  3) Board Page list limit(10 per page -> move to next page or so)
