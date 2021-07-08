@@ -1,0 +1,227 @@
+*{
+    margin: 0; padding:0;
+    font-family:'DOSMyungjo'; font-size: 20px; color: black;
+}
+
+@font-face {
+    font-family: 'DOSMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#main, #library_file{
+    background-color:#068a8a;
+    width: 100%; height: 95%;
+}
+
+/* #library {
+    display : none;
+} */
+
+.mainLeft{
+    background-color:#068a8a;
+    width:7%; height: 95%;
+    float:left;
+    font-size:17px; color:black;
+    text-align: center;
+}
+.mainRight{
+    background-color:#068a8a;
+    width: 93%; height:95%;
+    float:left;
+}
+
+.bob{
+    position:absolute;
+    right:0px;
+    bottom:40px;
+    height: 300px;
+    display : inline;
+}
+#filebox{
+    width: 510px; height: 300px;
+    background-color:whitesmoke;
+    position:absolute;
+    right:35%; bottom:35%;
+    display : block;
+}
+.filename{
+    width: 100%; height: 25px;
+    border: solid 3px lightgrey;
+    background-color:blue;
+    color: whitesmoke; font-size: 17px;
+}
+.icon{
+    height: 24px;
+    bottom:1px;
+}
+.fileview{
+    width:100%; height: 265px;
+    border: solid 3px lightgrey;
+    background-color:whitesmoke;
+    text-align:center;
+    font-size : 19px;
+    line-height:50px;
+}
+.bottom{
+    background-color:rgb(141, 139, 139);
+    width: 99%; height:4%;
+    border: solid 3px lightgrey;
+    position : relative;
+}
+
+.library_file{
+    width:100%; height:95%;
+    background-color:#068a8a;
+    
+}
+
+.library_filename{
+    height: 25px; width: 80%;
+    margin-top : 2%;
+    border: solid 3px lightgrey;
+    background-color:blue;
+    color: whitesmoke; font-size: 17px;
+    margin-left:10%;
+
+}
+.filemanage{
+    width : 80%; height:3%;
+    border : solid 3px lightgrey;
+    background-color:gray;
+    font-size: 18px;
+    margin-left: 10%;
+}
+
+.library_left{
+    background-color:whitesmoke;
+    width:11.6%; height: 88%;
+    float:left;
+    border: solid 3px lightgray;
+    font-size:20px; color:black;
+    text-align : center;
+    line-height: 50px;
+    margin-left: 10%;
+}
+.library_right{
+    background-color:whitesmoke;
+    width: 68.05%; height:88%;
+    border: solid 3px lightgray;
+    float:left;
+}
+
+
+.lines{
+    font-size: 20px; color: black;
+    line-height:30px;
+    padding-top:2%;
+}
+
+
+textarea {
+	resize: none !important;
+	overflow: auto !important;
+	outline: none;
+	box-shadow: none !important;
+    font-size: 20px; color: black;
+    width : 100%;
+    height : 100%;
+}
+#books {
+    width : 100%;
+    height : 100%;
+}
+
+#textarea {
+    width : 99%;
+    height : 55%;
+    margin-left : auto; margin-right : auto;
+}
+
+textarea.notes {
+	line-height: 31px;
+	background-image: -webkit-linear-gradient(left, white 0, transparent 0), -webkit-linear-gradient(right, white 0, transparent 0), -webkit-linear-gradient(white 30px, #ccc 30px, #ccc 31px, white 31px);
+	background-repeat: repeat-y;
+	background-size: 100% 100%, 100% 100%, 100% 31px;
+	background-attachment: local;
+    margin:2px;
+    font-size: 20px; color: black;
+}
+
+.btn_reset, .btn_submit{
+    margin-top:1%;
+    font-size: 20px; color: black;
+    
+}
+
+#startBtn{
+    height : 30px;
+    bottom : 0px;
+    cursor : pointer;
+    float : left; 
+}
+
+#CurrentTime{
+    float : right;
+    margin-right : 1%;
+    color : white;
+}
+
+
+
+/*게시판 CSS*/
+h1 {
+    margin-top: 1%;
+    margin-bottom: 0.67em;
+    width : 100%; height : 3%;
+    display: block;
+    text-align : center;  
+    font-weight: bold;
+  }
+#WriteNew{
+    background-color : #068a8a;
+    margin-top : 2%;
+    width : 90%; height : 4%;
+    display : block;
+    margin-left : auto; margin-right : auto;
+}
+
+/*테이블 요소*/
+#BoardTable{
+    width : 90%;
+    display : block;
+    margin-left : auto; margin-right : auto;
+}
+table {
+    display : block;
+    margin-left : auto; margin-right : auto;
+    width : 100%;
+    border-top : 1px solid #068a8a;
+    border-collapse : collapse;
+    table-layout : fixed;
+}
+
+th {
+    border : 1px solid grey; 
+    font-size : 1.02em;
+}
+td {
+    border : 1px solid grey;
+    text-align : center;
+    font-size : 0.8em;
+    padding : 5px;
+}
+.idx{
+    width : 5.5%;
+}
+.Btitle{
+    width : 15.9%;
+}
+.Pscript, .Wcontents{
+    width : 31%;
+}
+.Wdate {
+    width : auto;
+}
